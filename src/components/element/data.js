@@ -1,0 +1,55 @@
+export const data = {
+  _id: '61b8b547e00fb48a3e0d7e21',
+  title: 'updated job application form',
+  author: '61a11a16918bc9f94ef53fa6',
+  job: '61a12235aed3689e66000e62',
+  active: false,
+  fields: [
+    {
+      name: 'fullname',
+      label: 'Enter your fullname',
+      inputType: 'text',
+      required: true,
+      placeholder: 'e.g simba muphasa',
+      _id: '61b8f353205ee290aea7a5bc',
+      selectable: [],
+    },
+    {
+      name: 'gender',
+      label: 'Please select your gender',
+      inputType: 'select',
+      required: true,
+      selectable: [
+        {
+          label: 'male',
+          value: 'male',
+          selected: true,
+          _id: '61b8f353205ee290aea7a5be',
+        },
+        {
+          label: 'female',
+          value: 'female',
+          selected: false,
+          _id: '61b8f353205ee290aea7a5bf',
+        },
+      ],
+      _id: '61b8f353205ee290aea7a5bd',
+    },
+    {
+      range: {
+        min: 0,
+        max: 1000000000,
+        step: 10000,
+      },
+      name: 'salaryExpectation',
+      label: 'what is your salary expectation',
+      inputType: 'range',
+      required: false,
+      _id: '61b8f353205ee290aea7a5c0',
+      selectable: [],
+    },
+  ],
+  createdAt: '2021-12-14T15:16:23.747Z',
+  updatedAt: '2021-12-14T19:41:07.865Z',
+  __v: 0,
+}
