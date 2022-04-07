@@ -23,7 +23,7 @@ const JobLists = ({ handleRedirect, get_jobs_list }) => (
                   onClick={() => handleRedirect(elm._id)}
                 >
                   <AvatarStatus
-                    src={elm.img}
+                    src='/img/logo-main.png'
                     name={elm.title}
                     subTitle={`Starting: ${elm?.startDate} ~  Closing: ${elm?.closingDate}`}
                   />
